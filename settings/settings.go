@@ -21,7 +21,7 @@ type ServerSettings struct {
 
 var Settings = ServerSettings{
 	Hostname:         getOutboundIP().String(),
-	PanelPort:        "8080",
+	PanelPort:        "443",
 	PanelPortForward: true,
 }
 
